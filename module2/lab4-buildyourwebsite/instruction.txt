@@ -9,5 +9,3 @@ Styling text
 Styling links
 
 For example, your resume may look like this:
-
-
