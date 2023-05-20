@@ -36,23 +36,82 @@
       .box {
         margin: 1px;
         padding: 1px;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         border: 5px solid rgba(98, 76, 118, 0.774);
         box-sizing: content-box;
         text-overflow: clip;
         overflow: hidden;
         outline: 10px red;
         border-radius: 50%;
+        background-image: url(/module2/lab2-css/bg-image.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
       }
 
       /* III. Position */
+      .position-absolute {
+        position: absolute;
+        /* top: 10px;
+        left: 10px; */
+        right: 10px;
+        bottom: 10px;
+        z-index: -3;
+      }
 
+      .position-relative{
+        position: relative;
+      } 
+
+      div.position-sticky {
+        position: sticky;
+      }
 
       /* IV. Styling text */
+      .text-style{
+        color: green;
+        font-size: large;
+        line-height: 50px;
+        font-weight: bold;
+        font-family: monospace;
+        text-align: right;
+        letter-spacing: 20px;
+        word-spacing: 30px;
+        text-transform: capitalize;
+        text-decoration: overline;
+      }
 
+      /* V. Styling link */
+      a {
+        color: black;
+        font-size: medium;
+        font-weight: 400;
+        text-decoration: none;
+        border: 1px black solid;
+        padding: 3px;
+      }
+
+      a:hover {
+        color: orange;
+      }
+
+      a:active{
+        color: brown;
+      }
+
+      a:focus{
+        color: blueviolet;
+      }
+
+      a:visited{
+        color: crimson;
+      }
 
       /* VI. calc() */
+      .calc-style{
+        width: calc(100vw - 100px);
+      }
 
     </style>
   </head>
