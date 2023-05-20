@@ -10,25 +10,31 @@
         body {
             margin: 0;
         }
+
         main {
             display: flex;
         }
 
         .left {
-            border: 10px solid red;
-   
-        }
-        
-        .right {
+            border: 3px solid black;
+            background-color: rgb(93, 11, 11);
+            display: flex;
+            flex-direction: column;
 
-            border: 10px solid blue;
+        }
+
+        .right {
+            border: 3px solid blue;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 4;
         }
 
         .profilepic {
             width: 100px;
             height: 100px;
+            border-radius: 50%;
         }
-
     </style>
 </head>
 
@@ -44,22 +50,36 @@
         </div>
         <h3>Skills</h3>
         <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Javascript</p>
+            <p>Music Composition</p>
+            <p>Sound Engineering</p>
+            <p>Multi-Instrumentalist</p>
         </div>
 
     </div>
     <div class="right">
         <h1>Experience</h1>
-        <h2>Student at IOD</h2>
+        <h2>Guitar Instructor</h2>
+        <P>Auckland Normal Intermediate, January 2023 - Present</P>
+        <h2>Business Sales Specialist</h2>
+        <div>
+            <p>Probe CX, Jan 2019 - Dec 2022</p>
+            <h1>Education</h1>
+            <div>
+                <h2>Institute of Data Software Engineering Course</h2>
+                <p>Institute of Data, May 2023 - present</p>
+                <h2>Music and Audio Institute of New Zealand</h2>
+                <div>
+                    <p>Diploma in Audio Engineering and Music Production 2011 - 2013</p>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
 
 
 <body>
-    <footer>Created by Jagwinder Singh, 2023</footer>
+    <footer>Created by: Jagwinder Singh, 2023</footer>
 </body>
 
 </html>
