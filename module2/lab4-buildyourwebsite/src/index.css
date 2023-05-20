@@ -1,0 +1,57 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.goose{
+    width: 240px;
+    border-radius: 15px;
+}
+
+.side h3,h1{
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer{
+    text-align: left;
+    height: 30px;
+    color: rgb(180, 180, 180);
+}
+
+@media only screen and (max-width: 600px) {
+
+    *{font-size: 10px}
+
+    .flex-container{
+        display: block;
+        flex-direction: row;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    *{font-size: 20px}
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-basis-item-30{
+        flex-wrap: wrap;
+        flex-basis: 30%;
+    }
+
+    .flex-basis-item-70{
+        flex-wrap: wrap;
+        flex-basis: 70%;
+    }
+}
+
