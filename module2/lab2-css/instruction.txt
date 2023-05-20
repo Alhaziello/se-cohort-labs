@@ -52,9 +52,9 @@ In this section you will be editing CSS rules for the .box class. Use an inspect
 7. Border-radius
    7.1 Set border-radius on the .box element. Start by trying out different values express in pixels e.g. 20px
     7.2 Setting border-radius to 50% together with width=height will make the element look like a circle. If the width is different from height then the element will become an ellipsis. Not that this is just a visual effect of the border and when you inspect the HTML element is still an rectangle.
-8. background image
+8. background images
     8.1 Set background image using background property. Image to use is located in ./assets/images/img1.png file
-   8.2 Set background-size to `contain`. Do not hesitate to try other values.
+   8.2 Set background-size to `contain`. Do not hesitate to try other values.s
    8.3 Set background-repeat to `no-repeat`. Do not hesitate to try other values.
    8.4 Set background-position `to center`. Do not hesitate to try other values.
 
