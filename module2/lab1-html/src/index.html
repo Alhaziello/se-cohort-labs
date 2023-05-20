@@ -1,16 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <!-- works like <a href="/index.html">Home</a> -->
-        <a href="/">Home</a>
-      </nav>
-    </header>
-    <main>
-    </main>
-    <footer>Copyright 2021 &copy;</footer>
-  </body>
+
+<head>
+  <title>My first html excerscise</title>
+  <meta name="charset" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="">
+  <style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="form.html">Form</a>
+    </nav>
+  </header>
+
+  
+
+  
+  <main>
+
+    <h1>My First HTML Exercise</h1>
+
+  <article>
+
+    <h2>Learning elements - div, span, p, pre, ul, li, ol, article</h2>
+    <div>Apple</div>
+    <span>This is my apple span</span>
+    <div>Banana</div>
+    <span>This is my banana span</span>
+    <div>Grape</div>
+    <span>This is my grape span</span>
+
+    <p>P represents a paragraph</p>
+    <pre>Text in         a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks</pre>
+
+    <ul>
+      <li>Ul 1</li>
+      <li>Ul 2</li>
+      <li>Ul 3</li>
+    </ul>
+
+    <li>Li 1</li>
+    <li>Li 1</li>
+    <li>Li 1</li>
+
+    <ol>
+      <li>Ol 1</li>
+      <li>Ol 2</li>
+      <li>Ol 3</li>
+    </ol>
+  </article>
+
+  <article>
+    <h2>Learning elements</h2>
+
+    <table>
+      <thead>
+      <tr>
+          <th colspan="2">First header</th>
+          <th>Second header</th>
+      </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>First cell - first row</td>
+              <td>Second cell - first row</td>
+              <td>Third cell - first row</td>
+          </tr>
+          <tr>
+            <td rowspan="2">First cell - second row</td>
+            <td>Second cell - second row</td>
+            <td>Third cell - second row</td>
+        </tr>
+        <tr>
+          <td>First cell - third row</td>
+          <td>Second cell - third row</td>
+      </tr>
+      </tbody>
+  </table>
+
+  </article>
+
+  <img src="" alt="" /><img src="https://picsum.photos/200/300" alt="">
+
+  <video controls width="250" autoplay>
+    <source src="/media/cc0-videos/flower.webm"
+            type="video/webm">
+    <source src="/media/cc0-videos/flower.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<audio>
+  controls
+  src="/media/cc0-audio/t-rex-roar.mp3">
+      Your browser does not support the
+      <code>audio</code> element.
+</audio>
+
+  </main>
+  <footer>Copyright 2021 &copy;</footer>
+</body>
+
 </html>
