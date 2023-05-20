@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lab 4 - Build your own website</title>
+        <title></title>
         <style>
-            
-
-            body{
-                margin: 0;
+            *{
+                box-sizing: border-box;
             }
-
             .container{
                 display: flex;
-                
+                flex-wrap: wrap;
             }
 
-            #left-section{
-                background-color: rgb(108, 105, 185);
-                
+            .left-container{
+                background-color: rgb(4, 18, 54);
                 padding: 10px;
+                flex: 30%;
+                color: whitesmoke;
             }
-            #right-section{
+            .left-container h3,h5{
+                text-align: center;
+            }
+
+            .right-container{
+                background-color: rgb(240, 239, 239);
                 padding: 10px;
+                flex: 70%;
             }
 
             .image{
@@ -37,12 +41,15 @@
             
 
             .left-headers{
-                background-color: rgb(162, 160, 214);
+               
+                background-color:  rgb(240, 239, 239);
+                font-size: medium;
+                color: black;
                 padding-left: 10px;
             }
 
             a {
-                color: black;
+                color: whitesmoke;
                 text-decoration: none;
             }
 
@@ -53,8 +60,19 @@
                 
             }
 
+            .right-container{
+                color: rgb(123, 123, 123);
+            }
+            
+            .right-container h4{
+                color: rgb(72, 187, 233);
+            }
+            .right-container h3{
+                color: rgb(74, 74, 74)
+            }
+
             footer div{
-                background-color: purple;
+                background-color: rgb(103, 107, 152);
                 margin-top: 5px;
                 padding: 10px;
                 width: 100%;
@@ -62,22 +80,21 @@
                 font-size: medium;
             }
 
-            
         </style>
     </head>
+
     <body>
         <div class="container">
-            <div id="left-section">
-                <h3>Bhavik Yakkarnall - Resume</h3>
-
-                <div class="image"><img src="/module2/lab4-buildyourwebsite/Avatar.png"></div>
+            <div class="left-container">
                 
+                <div class="image"><img src="/module2/lab4-buildyourwebsite/Avatar.png"></div>
+                <h3>Bhavik Yakkarnall</h3>
                 <h5>Web Developer</h5>
                 
                 <div class="left-headers"><h4>Personal Info</h4></div>
-                <h5>Phone:</h5>
+                <h4>Phone:</h4>
                 <a href="tel:+64210583820">+64210583820</a>
-                <h5>Email:</h5>
+                <h4>Email:</h4>
                 <a href="mailto:bhavikyakkarnall@gmail.com">bhavikyakkarnall@gmail.com</a>
                 
                 <div class="left-headers"><h4>Skills</h4></div>
@@ -97,7 +114,7 @@
                 </table>
             </div>
     
-            <div id="right-section">
+            <div class="right-container">
                 <div id="experince">
                     <h3>Experience</h3>
                     <div id="experience1">
@@ -153,3 +170,4 @@
         </footer>
     </body>
 </html>
+
