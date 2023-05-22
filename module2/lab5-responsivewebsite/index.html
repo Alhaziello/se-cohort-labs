@@ -9,28 +9,23 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
-      /* @media only screen and (min-width: 700px) {
-    .main-container {
-        display: flex;
-        flex-direction: row;
-    }
-
-  }
-  @media (max-width: 699.98px) {
-    .main-container {
-        display: block;
-        
-    }
-
-  } */
-
-      .main-container {
+      @media screen (min-width: 700px) {
+        .main-container {
+          display: flex;
+        }
+      }
+      @media screen (max-width: 699.98px) {
+        .main-container {
+          display: block;
+        }
+      }
+       .main-container {
         display: flex;
         border: 5px black solid;
       }
 
       .profile {
-        display: flex;
+        display: block;
         padding: 50px;
         font-family: "EB Garamond", serif;
         background-color: rgb(252, 124, 124);
@@ -41,6 +36,8 @@
       .detail {
         font-family: "EB Garamond", serif;
         font-weight: bold;
+        display: block;
+        flex-direction: column;
       }
       .education {
         width: 500px;
@@ -107,32 +104,32 @@
         <a href="github.com/chanwoo214">Github: github.com/chanwoo214</a>
 
         <div class="skils">
-        <h2>Language</h2>
-        <ul>
-          <li>English</li>
-          <li>Korean</li>
-        </ul>
+          <h2>Language</h2>
+          <ul>
+            <li>English</li>
+            <li>Korean</li>
+          </ul>
 
-        <h2>Soft Skills</h2>
-        <ul>
-          <li>Communication</li>
-          <li>Adaptability</li>
-          <li>Time Management</li>
-          <li>Work Ethic</li>
-          <li>Analytical Thinking</li>
-          <li>Teamwork</li>
-        </ul>
+          <h2>Soft Skills</h2>
+          <ul>
+            <li>Communication</li>
+            <li>Adaptability</li>
+            <li>Time Management</li>
+            <li>Work Ethic</li>
+            <li>Analytical Thinking</li>
+            <li>Teamwork</li>
+          </ul>
 
-        <h2>Technical Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>Microsoft Office</li>
-          <li>Soldering</li>
-        </ul>
+          <h2>Technical Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Microsoft Office</li>
+            <li>Soldering</li>
+          </ul>
+        </div>
       </div>
-    </div>
 
       <div class="detail">
         <div class="education">
@@ -163,8 +160,9 @@
             throughput and that all functional KPIs are met. Gained knowledge
             and skills to work with cross functional teams to improve production
             and refurbishment processes.
-          </p> <br>
-                    
+          </p>
+          <br />
+
           <h3>
             2019 - 2021 <br />
             ADS Limited - Security Technician
