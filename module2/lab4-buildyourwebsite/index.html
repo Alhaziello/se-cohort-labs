@@ -1,48 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        .main-container {
-            display: flex;
-        }
-        
-        #profile-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 150px;
-        }
-
-        .left-panel {
-            border: 1px solid red;
-            flex-basis: 30%;
-        }
-
-        .right-panel {
-            border: 1px solid red;
-            flex-basis: 70%;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Resume</title>
+    <link rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <section class="profile">
+    <div class="container">
+        <sectin class="container-1">
+            <div class="block">
+                <img src="bgimg.jpeg" alt="">
+                <h1>Mark Borley Resume</h1>
+                <h3>Wed Developer (in training)</h3>
+            </div>
+            <div class="block">
+                <h3>Personal information</h3>
+                    <ul>
+                        <li>Phone: 022123456</li>
+                        <li>E-mail: markborley@fake-email.com</li>
+                    </ul>
+            </div>
+            <div class="block">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML Intermediate</li>
+                    <li>CSS Intermediate</li>
+                    <li>Javascript Still learning</li>
+                </ul>
+            </div>
+        </sectin>
 
-      <div class="main-container">
-        <div class="left-panel">
-            <h1 class>Mark Borley Resume</h1>
-            <img id="profile-img" src="profile img.jpeg" alt="">
-            <h3>Web Developer</h3>
-            <h2>Personal Info</h2>
-        </div>
-        <div class="right-panel">
-            <h1>Experience</h1>
-        </div>
-      </div>      
+        <section class="container-2">
+            <h2>Experience</h2>
 
+            <h3>Composite technician 2021 - Current</h3>
+            <h4>Adavanced Aerospace</h4>
+                <ul>
+                    <li>Build aerospace & marine components</li>
+                    <li>Assemble aerospace & marine components</li>
+                </ul>
+                <hr>
+            
+            <h3>Film Set Builder</h3>
+            <h4>Amazon</h4>
+                <ul>
+                    <li>Build film sets for LOTR TV series</li>
+                </ul>
+                <hr>
+
+            <h3>Boat Builder</h3>
+            <h4>Emirates Team New Zealand</h4>
+                <ul>
+                    <li>Build the test and race boats for the 2021 Americas Cup defence</li>
+                </ul>
+                <hr>
+            
+            <h2>Education</h2>
+            <h3>Institute of Data Web Development Course</h3>
+            <h4>May 2023 - Current</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                </ul>
+                <hr>
+        </section>
+    </div> 
 
 </body>
 </html>
