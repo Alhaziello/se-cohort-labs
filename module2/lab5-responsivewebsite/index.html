@@ -9,18 +9,20 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
-      @media screen (min-width: 700px) {
-        .main-container {
-          display: flex;
-        }
-      }
-      @media screen (max-width: 699.98px) {
+      @media screen and (max-width: 699.98px) {
         .main-container {
           display: block;
         }
       }
+
+      @media screen and (min-width: 700px) {
+        .main-container {
+          display: flex;
+          flex-direction: wrap;
+        }
+      }
+
        .main-container {
-        display: flex;
         border: 5px black solid;
       }
 
