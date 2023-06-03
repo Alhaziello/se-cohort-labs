@@ -257,7 +257,7 @@ function Person(name, age) {
     this.name = name;
     this.age = age;
     this.human = true;
-    this.candrive = function() {
+    this.candrive = function () {
         return this.age >= 16;
     };
 }

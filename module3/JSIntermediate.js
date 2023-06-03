@@ -1,3 +1,5 @@
+printSection(1);
+
 /* 1. Create a function that takes a string as a parameter and returns the string with the first
 character of each word changed into a capital letter, as in the example below. Test it with
 different strings. */
@@ -14,6 +16,8 @@ for (var i = 0; i < upper.length; i++) {
 const str2 = upper.join(" ");
 console.log(str2);
 
+printSection(2);
+
 /* 2. Create a function truncate(str, max) that truncates a given string of text if its total
 length is greater than the max length. It should return either the truncated text, with an
 ellipsis (...) added to the end if it was too long, or the original text otherwise.
@@ -28,6 +32,8 @@ const truncated = str3.substring(0,20) + "...";
 
 console.log(truncated);
 console.log(condTrunc);
+
+printSection(3);
 
 /* 3. Use the following animals array for the below tasks. Test each one by printing the result to
 the console. Review the following link for tips:
@@ -44,3 +50,14 @@ e) Write a function findMatchingAnimals(beginsWith) that returns a new array
 containing all the animals that begin with the beginsWith string. Try to make it work
 regardless of upper/lower case. */
 
+const animals = ['Tiger', 'Giraffe']
+
+console.log(animals);
+
+
+
+
+
+function printSection(sectionNumber) {
+    console.log("-------------------------------------------------------------");
+}
