@@ -69,11 +69,15 @@ console.log(animals);
 console.log(findMatchingAnimals('c'));
 
 printSection("4");
-function camelCase (cssProp) {
-    let properties = cssProp.split('-');
-    let result =  properties[0];
+function camelCase(cssProp) {
+    let words = cssProp.split('-');
+    let camelCaseStr = words[0];
     
-}
-
-
-
+    for (let i = 1; i < words.length; i++) {
+      camelCaseStr += words[i][0].toUpperCase() + words[i].slice(1);
+    }
+    
+    return camelCaseStr;
+  }
+  
+  console.log(camelCase('margin-left')); 
