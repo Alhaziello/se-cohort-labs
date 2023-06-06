@@ -281,14 +281,17 @@ class PersonClass {
     constructor(name, year) {
       this.name = name;
       this.year = year;
-      if (this.year > 18){
-        this.candrive = true;
-      }
-      else {
-        this.candrive = false;
-      }
+    }
+
+    candrive(year){
+        if (this.year > 18){
+            return true;
+          }
+        else {
+            return false;
+          }
     }
   }
 
-BBB = new PersonClass("BBB", 12)
-console.log(BBB)
+BBB = new PersonClass("BBB", 20)
+console.log(BBB.candrive())
